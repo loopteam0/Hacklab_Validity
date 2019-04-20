@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar i-color>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="action">
+    <div #qr class="icon">
+
+    </div>
+    <div class="id">
+      <ion-item>
+        <ion-label>
+          <span>Px ID: </span>
+          <span>324235435345</span>
+        </ion-label>
+      </ion-item>
+    </div>
+  </div>
+
+  <div class="history">
+    <ion-label>REQUESTS PARTY: Stambic Bank</ion-label>
+    <div class='confirm-button'>
+      <ion-button (click)="confirmAccess()">
+        GRANT ACCESS
+      </ion-button>
+    </div>
+
+  </div>
+</ion-content>

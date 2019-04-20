@@ -1,0 +1,32 @@
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+
+  ion-icon {
+    font-size: 5rem;
+  }
+
+  .icon {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.466);
+  }
+
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.confirm-button {
+  width: 100vw;
+  padding: 20px;
+
+  ion-button {
+    width: 150px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,60 @@
+ion-content {
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+
+    .lead {
+        font-size: 32px;
+        color: #fff;
+    }
+
+    .sub {
+        color: #fff;
+    }
+
+}
+
+.ion-content-b {
+    overflow: scroll;
+    background-image: url(../../../assets/starter.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.butttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image {
+    height: 50%;
+    display: flex;
+
+    ion-img {
+        width: 8rem;
+        animation: rotation 2s infinite linear;
+    }
+}
+
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}

@@ -1,0 +1,30 @@
+ion-content {
+    overflow: hidden;
+}
+
+.ion-content-b {
+    overflow: scroll;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+
+
+a {
+    color: #fff;
+}
+
+ion-select {
+    min-width: 200px;
+}
+
+.signup-button {
+    width: 150px;
+    margin-left: auto;
+}

@@ -1,0 +1,19 @@
+ion-card-header {
+    padding: 0;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+ion-img {
+    height: 150px;
+    width: 100%;
+}
+
+ion-card-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+<ion-content>
+  <div class="ion-content-b">
+
+    <div class="title">
+      <ion-title class="lead">WELCOME TO</ion-title>
+      <ion-title class="sub">Loop Validator</ion-title>
+    </div>
+
+    <div class="image">
+      <ion-img src='../../../assets/icon/favicon.png'></ion-img>
+    </div>
+
+    <div class="butttons">
+
+      <div>
+        <ion-button color="secondary" (click)="login()">
+          <ion-icon slot="end" name="person"></ion-icon>
+          log in
+        </ion-button>
+
+        <ion-button color="primary" (click)="signup()">
+          <ion-icon slot="end" name="add"></ion-icon>
+          Sign Up
+        </ion-button>
+      </div>
+
+      <ion-button color="warning" (click)="home()">
+        <ion-icon slot="end" name="help"></ion-icon>
+        Guest
+      </ion-button>
+    </div>
+
+  </div>
+</ion-content>
