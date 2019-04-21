@@ -26,3 +26,20 @@ ion-select {
     width: 150px;
     margin-left: auto;
 }
+
+.confirm {
+    display: flex;
+
+    ion-label {
+        margin-left: 5px;
+    }
+}
+
+ion-item {
+    --background: rgba(255, 255, 255, 0);
+
+}
+
+a {
+    color: #fff;
+}

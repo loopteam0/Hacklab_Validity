@@ -8,6 +8,7 @@ import { NavController } from '@ionic/angular';
 })
 export class StarterPage implements OnInit {
   constructor(private navCtrl: NavController) {}
+  animateText = ' ';
 
   ngOnInit() {}
 
